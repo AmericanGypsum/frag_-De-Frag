@@ -42,6 +42,8 @@ Page splits are an expensive operation; therefore, the fewer page splits you hav
 
 */
 --STEP 1
+
+
 		USE MKT
 		GO 
 		SELECT DB_NAME(i.database_id) AS DbName
